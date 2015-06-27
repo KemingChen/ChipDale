@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="game_framework::Monster" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwCGAAAAAAAIEEACACAAAgAAIAAAAAEAgAgAAAGAAA=</HashCode>
+      <FileName>monster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::bullet" Collapsed="true">
+    <Position X="3.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAUAAAAIAIAAAAAAAAAAAAAAAAAAAAAAABAAAAAEAAA=</HashCode>
+      <FileName>monster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::MachineDog" Collapsed="true">
+    <Position X="5.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQCAACAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAGAAA=</HashCode>
+      <FileName>monster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::Cactus" Collapsed="true">
+    <Position X="8.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAICAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>monster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::Electric" Collapsed="true">
+    <Position X="8.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAADEAAAAAAAAAQAAAIAQAAAAABAAAAAAAAAEAAA=</HashCode>
+      <FileName>monster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::Wire" Collapsed="true">
+    <Position X="5.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAAAAAAAAAAAAAABAIAAABAAABAAEAAIAAAEAAA=</HashCode>
+      <FileName>monster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::Mouse" Collapsed="true">
+    <Position X="8.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAAAAAAAAAQQAAAIAAAAAAAAAAAAAAAAAGAAA=</HashCode>
+      <FileName>monster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::Wasp" Collapsed="true">
+    <Position X="5.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAEAAAAAAAAAAAAIAAQAAAAAAAAAAAAAEGAAA=</HashCode>
+      <FileName>monster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::Lighting" Collapsed="true">
+    <Position X="3.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAQAAIAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>monster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::Centipedelimbs" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQAABCAEYAAAAAAAAAAAIAAQAAIAAQAAAAAQAAEAAA=</HashCode>
+      <FileName>monster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::Centipede" Collapsed="true">
+    <Position X="8.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAACAgAAAAQCAAAABAIAAAAAAAAAAECAAAAAGAAA=</HashCode>
+      <FileName>monster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微軟正黑體" Size="9" />
+</ClassDiagram>

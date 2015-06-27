@@ -57,7 +57,7 @@
  *      3. Add namespace game_framework.
  *      4. Make the class CGame a singleton so that MFC can access it easily.
  *      5. Support loading of bitmap from bmp file.
- *      6. Support ShowInitProgress(percent) to display loading progress. 
+ *      6. Support ShowInitProgress(percent) to display loading progress.
  *   2010-03-23 V4.6
  *      1. Rewrite CAudio with MCI commands to eliminate dependency with DirectMusic.
 */
@@ -76,39 +76,57 @@ using namespace std;
 //           掉。
 /////////////////////////////////////////////////////////////////////////////
 
-namespace game_framework {
+namespace game_framework
+{
 
-class CAudio {
-public:
-	~CAudio();
-	void           Close();						// 關閉Direct Sound介面
-	static CAudio* Instance();					// 取得CAudio的Instance
-	bool           Load(unsigned, char *);		// 載入編號i的聲音，指定MIDI檔案
-	bool           Open();						// 開啟Direct Sound介面
-	void		   Pause();						// 暫停播放所有音效
-	void           Play(unsigned, bool=false);	// 開始撥放編號i的聲音，指定是否重覆撥放
-	void		   Resume();					// 復原暫停播放的音效
-	void           SetPowerResume();			// 電源恢復
-	void           Stop(unsigned);				// 停止撥放編號i的聲音
-private:
-	class Info {
-	public:
-		Info() {
-			repeat = isGood = false;
-		}
-		bool repeat, isGood;
-		string fileName;
-	};
-	static void MCIThread(HANDLE);	// MCI thread method
-	static void ExecuteMciCommand(char *); // 
-	void SendMciCommand(char *);	// 
-	CAudio();						// private constructor
-	static CAudio		audio;		// 自動destruct
-	map<int, Info>		info;
-	bool				isOpened;
-    HANDLE				hThread;	// MCI command thread
-	HANDLE				hWriteEnd;	// Pipe write handle for thread
-	const static int	MAX_MCI_COMMAND_SIZE = 400;
+class CAudio
+{
+    public:
+        ~CAudio();
+        void           Close();						// 關閉Direct Sound介面
+        static CAudio* Instance();					// 取得CAudio的Instance
+        bool           Load(unsigned, char*);		// 載入編號i的聲音，指定MIDI檔案
+        bool           Open();						// 開啟Direct Sound介面
+        void		   Pause();						// 暫停播放所有音效
+        void           Play(unsigned, bool = false);	// 開始撥放編號i的聲音，指定是否重覆撥放
+        void		   Resume();					// 復原暫停播放的音效
+        void           SetPowerResume();			// 電源恢復
+        void           Stop(unsigned);				// 停止撥放編號i的聲音
+
+        //自定義函式
+        void	PauseById(int id);
+        void	SetSpeedByID(unsigned int id, int speed);
+        void	PlayOnSpe(unsigned, bool repeat = false, int time = 0);
+        void	Resume_for_CGame();
+
+        //Functions for Game_ChipDale
+        void	PlayLevelMusic(int level, bool stop_and_play = false); //限於GameStateRun使用，會自動偵測是否該播放BOSS音樂
+        void	PauseLevelMusic(int level);							//限於GameStateRun使用，會自動偵測是否該播放BOSS音樂
+        void	StopLevelMusic(int level);							//限於GameStateRun使用，背景音樂與BOSS音樂全部stop
+        void	LevelMusicOnit();									//LevelMusic對照Map初始化(只能執行一次，有防呆)
+    private:
+        class Info
+        {
+            public:
+                Info()
+                {
+                    repeat = isGood = false;
+                }
+                bool repeat, isGood;
+                string fileName;
+        };
+        static void MCIThread(HANDLE);	// MCI thread method
+        static void ExecuteMciCommand(char*);  //
+        void SendMciCommand(char*);	//
+        CAudio();						// private constructor
+        static CAudio		audio;		// 自動destruct
+        map<int, Info>		info;
+        bool				isOpened;
+        HANDLE				hThread;	// MCI command thread
+        HANDLE				hWriteEnd;	// Pipe write handle for thread
+        const static int	MAX_MCI_COMMAND_SIZE = 400;
+
+        static map<int, int> LevelMusic;
 };
 
 }

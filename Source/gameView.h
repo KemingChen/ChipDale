@@ -28,63 +28,65 @@
 
 class CGameView : public CView
 {
-protected: // create from serialization only
-	CGameView();
-	DECLARE_DYNCREATE(CGameView)
+    protected: // create from serialization only
+        CGameView();
+        DECLARE_DYNCREATE(CGameView)
 
 // Attributes
-public:
-	CGameDoc* GetDocument();
+    public:
+        CGameDoc* GetDocument();
 
 // Operations
-public:
+    public:
 
 // Overrides
-	// ClassWizard generated virtual function overrides
-	//{{AFX_VIRTUAL(CGameView)
-	public:
-	virtual void OnDraw(CDC* pDC);  // overridden to draw this view
-	virtual BOOL PreCreateWindow(CREATESTRUCT& cs);
-	virtual void OnInitialUpdate();
-	protected:
-	virtual BOOL OnPreparePrinting(CPrintInfo* pInfo);
-	virtual void OnBeginPrinting(CDC* pDC, CPrintInfo* pInfo);
-	virtual void OnEndPrinting(CDC* pDC, CPrintInfo* pInfo);
-	//}}AFX_VIRTUAL
+        // ClassWizard generated virtual function overrides
+        //{{AFX_VIRTUAL(CGameView)
+    public:
+        virtual void OnDraw(CDC* pDC);  // overridden to draw this view
+        virtual BOOL PreCreateWindow(CREATESTRUCT& cs);
+        virtual void OnInitialUpdate();
+    protected:
+        virtual BOOL OnPreparePrinting(CPrintInfo* pInfo);
+        virtual void OnBeginPrinting(CDC* pDC, CPrintInfo* pInfo);
+        virtual void OnEndPrinting(CDC* pDC, CPrintInfo* pInfo);
+        //}}AFX_VIRTUAL
 
 // Implementation
-public:
-	virtual ~CGameView();
+    public:
+        virtual ~CGameView();
 #ifdef _DEBUG
-	virtual void AssertValid() const;
-	virtual void Dump(CDumpContext& dc) const;
+        virtual void AssertValid() const;
+        virtual void Dump(CDumpContext& dc) const;
 #endif
 
-protected:
+    protected:
 
 // Generated message map functions
-protected:
-	//{{AFX_MSG(CGameView)
-	afx_msg void OnLButtonDown(UINT nFlags, CPoint point);
-	afx_msg void OnLButtonUp(UINT nFlags, CPoint point);
-	afx_msg void OnRButtonDown(UINT nFlags, CPoint point);
-	afx_msg void OnRButtonUp(UINT nFlags, CPoint point);
-	afx_msg void OnKillFocus(CWnd* pNewWnd);
-	afx_msg void OnFilePause();
-	afx_msg void OnUpdateFilePause(CCmdUI* pCmdUI);
-	afx_msg void OnFileNew();
-	afx_msg void OnButtonPause();
-	afx_msg void OnKeyDown(UINT nChar, UINT nRepCnt, UINT nFlags);
-	afx_msg void OnKeyUp(UINT nChar, UINT nRepCnt, UINT nFlags);
-	afx_msg void OnMouseMove(UINT nFlags, CPoint point);
-	afx_msg void OnSetFocus(CWnd* pOldWnd);
-	//}}AFX_MSG
-	DECLARE_MESSAGE_MAP()
+    protected:
+        //{{AFX_MSG(CGameView)
+        afx_msg void OnLButtonDown(UINT nFlags, CPoint point);
+        afx_msg void OnLButtonUp(UINT nFlags, CPoint point);
+        afx_msg void OnRButtonDown(UINT nFlags, CPoint point);
+        afx_msg void OnRButtonUp(UINT nFlags, CPoint point);
+        afx_msg void OnKillFocus(CWnd* pNewWnd);
+        afx_msg void OnFilePause();
+        afx_msg void OnUpdateFilePause(CCmdUI* pCmdUI);
+        afx_msg void OnFileNew();
+        afx_msg void OnButtonPause();
+        afx_msg void OnKeyDown(UINT nChar, UINT nRepCnt, UINT nFlags);
+        afx_msg void OnKeyUp(UINT nChar, UINT nRepCnt, UINT nFlags);
+        afx_msg void OnMouseMove(UINT nFlags, CPoint point);
+        afx_msg void OnSetFocus(CWnd* pOldWnd);
+        //}}AFX_MSG
+        DECLARE_MESSAGE_MAP()
 };
 
 #ifndef _DEBUG  // debug version in gameView.cpp
 inline CGameDoc* CGameView::GetDocument()
-   { return (CGameDoc*)m_pDocument; }
+{
+    return (CGameDoc*)m_pDocument;
+}
 #endif
 
 /////////////////////////////////////////////////////////////////////////////

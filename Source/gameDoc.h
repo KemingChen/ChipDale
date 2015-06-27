@@ -29,41 +29,41 @@
 
 class CGameDoc : public CDocument
 {
-protected: // create from serialization only
-	CGameDoc();
-	DECLARE_DYNCREATE(CGameDoc)
+    protected: // create from serialization only
+        CGameDoc();
+        DECLARE_DYNCREATE(CGameDoc)
 
 // Attributes
-public:
+    public:
 
 // Operations
-public:
+    public:
 
 // Overrides
-	// ClassWizard generated virtual function overrides
-	//{{AFX_VIRTUAL(CGameDoc)
-	public:
-	virtual BOOL OnNewDocument();
-	virtual void Serialize(CArchive& ar);
-	//}}AFX_VIRTUAL
+        // ClassWizard generated virtual function overrides
+        //{{AFX_VIRTUAL(CGameDoc)
+    public:
+        virtual BOOL OnNewDocument();
+        virtual void Serialize(CArchive& ar);
+        //}}AFX_VIRTUAL
 
 // Implementation
-public:
-	virtual ~CGameDoc();
+    public:
+        virtual ~CGameDoc();
 #ifdef _DEBUG
-	virtual void AssertValid() const;
-	virtual void Dump(CDumpContext& dc) const;
+        virtual void AssertValid() const;
+        virtual void Dump(CDumpContext& dc) const;
 #endif
 
-protected:
+    protected:
 
 // Generated message map functions
-protected:
-	//{{AFX_MSG(CGameDoc)
-		// NOTE - the ClassWizard will add and remove member functions here.
-		//    DO NOT EDIT what you see in these blocks of generated code !
-	//}}AFX_MSG
-	DECLARE_MESSAGE_MAP()
+    protected:
+        //{{AFX_MSG(CGameDoc)
+        // NOTE - the ClassWizard will add and remove member functions here.
+        //    DO NOT EDIT what you see in these blocks of generated code !
+        //}}AFX_MSG
+        DECLARE_MESSAGE_MAP()
 };
 
 /////////////////////////////////////////////////////////////////////////////

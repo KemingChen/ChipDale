@@ -115,6 +115,11 @@
     <ClCompile Include="Source\StdAfx.cpp">
       <Filter>MFC</Filter>
     </ClCompile>
+    <ClCompile Include="Source\chipdale.cpp" />
+    <ClCompile Include="Source\instruction.cpp" />
+    <ClCompile Include="Source\mapmanage.cpp" />
+    <ClCompile Include="Source\monster.cpp" />
+    <ClCompile Include="Source\object.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Source\mygame.h" />
@@ -142,6 +147,11 @@
     <ClInclude Include="Source\StdAfx.h">
       <Filter>MFC</Filter>
     </ClInclude>
+    <ClInclude Include="Source\chipdale.h" />
+    <ClInclude Include="Source\instruction.h" />
+    <ClInclude Include="Source\mapmanage.h" />
+    <ClInclude Include="Source\monster.h" />
+    <ClInclude Include="Source\object.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Source\game.rc">

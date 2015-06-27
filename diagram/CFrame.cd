@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="game_framework::CFrame" Collapsed="true">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAJAAEQAAMIAASARIABAAAAABAAAACAAGAAABAAgAA=</HashCode>
+      <FileName>mygame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::AI_Instructions" Collapsed="true">
+    <Position X="4.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAEgAgAAADAIAAAAAAAAAEAAAIQACAIAEQAAA=</HashCode>
+      <FileName>instruction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::BasicInstructions" Collapsed="true">
+    <Position X="2" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKoQAAIAEgAAQAAAAAIAAIACIAAEgAAIQAIAAAEAAAA=</HashCode>
+      <FileName>instruction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::ChipDale" Collapsed="true">
+    <Position X="2" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gA8QLAIEAAGwLAhCJCLQIMgENIEAhAwBVEAACiCFoCg=</HashCode>
+      <FileName>chipdale.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::Monster" Collapsed="true">
+    <Position X="3.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwCGAAAAAAAIEEACACAAAgAAIAAAAAEAgAgAAAGAAA=</HashCode>
+      <FileName>monster.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::Object" Collapsed="true">
+    <Position X="5.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwCAAhAAQAAAAAgAACAAAwAAAAAAAAEASIgAAAEAAA=</HashCode>
+      <FileName>object.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微軟正黑體" Size="9" />
+</ClassDiagram>

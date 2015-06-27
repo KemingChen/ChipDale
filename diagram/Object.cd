@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="人物拿取觸發">
+    <Position X="2.724" Y="1.93" Height="0.291" Width="1.075" />
+  </Comment>
+  <Comment CommentText="人物動畫物件">
+    <Position X="2.729" Y="3.45" Height="0.291" Width="1.065" />
+  </Comment>
+  <Comment CommentText="人物碰觸觸發&#xD;&#xA;">
+    <Position X="2.75" Y="4.958" Height="0.291" Width="1.096" />
+  </Comment>
+  <Comment CommentText="以其他物件觸發">
+    <Position X="2.656" Y="6.396" Height="0.323" Width="1.148" />
+  </Comment>
+  <Comment CommentText="動畫效果">
+    <Position X="8.125" Y="4.917" Height="0.323" Width="0.835" />
+  </Comment>
+  <Class Name="game_framework::Object" Collapsed="true">
+    <Position X="1.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwCAAhAAQAAAAAgAACAAAwAAAAAAAAEASIgAAAEAAA=</HashCode>
+      <FileName>object.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::ChipDale_Dead" Collapsed="true">
+    <Position X="2.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAACEAACAIAAAIAAAAAAAAAAAIAAAAAEAAg=</HashCode>
+      <FileName>object.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::ChipDale_Resurrect" Collapsed="true">
+    <Position X="4.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAQAAAAAAAAAAAIAAAAAAAAAEAIAAAAAEAAg=</HashCode>
+      <FileName>object.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::ChipDale_Taken" Collapsed="true">
+    <Position X="6" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAYAAAAAEAAA=</HashCode>
+      <FileName>object.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::Star" Collapsed="true">
+    <Position X="6" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAIAAAAAAAAAQgAAAAAAEAAg=</HashCode>
+      <FileName>object.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::Cheese" Collapsed="true">
+    <Position X="4.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAgAAAAIAAAAAAAAAQAAAAAAAEAAg=</HashCode>
+      <FileName>object.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::Explosion" Collapsed="true">
+    <Position X="7.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAgAIAEAAAAAAAAAAAAAAAEAAg=</HashCode>
+      <FileName>object.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::Angel" Collapsed="true">
+    <Position X="2.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAABAAAAIAAAAAAAAAAIAAAAIAAAAAAAAAAAIEABg=</HashCode>
+      <FileName>object.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::Apple" Collapsed="true">
+    <Position X="2.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAABAAAAAIAAAAAAAAAAAQAAAAAEAAg=</HashCode>
+      <FileName>object.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::Ball" Collapsed="true">
+    <Position X="4.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAQAAAAAEgIg=</HashCode>
+      <FileName>object.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::Craft" Collapsed="true">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAIAAAAAAAAAIAAAAAAgAAAAQAAAEAEAAg=</HashCode>
+      <FileName>object.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::Stone" Collapsed="true">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAoAAAAAAAIAYAAAAAAAAAKUQAAAAAEAAg=</HashCode>
+      <FileName>object.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::Greedy" Collapsed="true">
+    <Position X="2.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAIBEAAMAAAAAAAAAAACAAAAAEAAg=</HashCode>
+      <FileName>object.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="微軟正黑體" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="此部分為Game Framework 4.6遊戲架框  (CAudio 作了大幅度修改)">
+    <Position X="2.635" Y="0.531" Height="0.302" Width="3.96" />
+  </Comment>
+  <Comment CommentText="地圖相關類別">
+    <Position X="2.312" Y="3.938" Height="0.291" Width="0.96" />
+  </Comment>
+  <Comment CommentText="singleton 類別">
+    <Position X="5.812" Y="3.938" Height="0.291" Width="1.065" />
+  </Comment>
+  <Comment CommentText="遊戲相關編號">
+    <Position X="2.26" Y="5.292" Height="0.291" Width="1.023" />
+  </Comment>
+  <Class Name="CAboutDlg" Collapsed="true">
+    <Position X="1.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAABAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>game.cpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGameApp" Collapsed="true">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAwAQAAAABAAAAAAA=</HashCode>
+      <FileName>game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGameDoc" Collapsed="true">
+    <Position X="4.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAACAAAgAAAACAgAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>gameDoc.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CGameView" Collapsed="true">
+    <Position X="6.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAHAAAAAGABAgABAgBIAABAIAAoMAAAQgQA=</HashCode>
+      <FileName>gameView.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMainFrame" Collapsed="true">
+    <Position X="3" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABCACgAAAAgAAAAASAAAiECAgCAAAgAAAAAQAEAAABA=</HashCode>
+      <FileName>MainFrm.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::CSpecialEffect" Collapsed="true">
+    <Position X="6.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAACAAgAAAAAAAAACAIAAIAAAAAAAAIAAA=</HashCode>
+      <FileName>gamelib.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::CDDraw" Collapsed="true">
+    <Position X="6.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAIkAAQABkEB1ICAAEAATQAAAACEAQABBKCACaJQA=</HashCode>
+      <FileName>gamelib.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::CMovingBitmap" Collapsed="true">
+    <Position X="4.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAABACAAAAAEYCAAAIIAAACAAAAACAAAA=</HashCode>
+      <FileName>gamelib.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::CAudio" Collapsed="true">
+    <Position X="4.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAgoAAAAAQQICAQIAAAAAQRAAACAIAA4BIAAAikQAI=</HashCode>
+      <FileName>gamelib.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::CAnimation" Collapsed="true">
+    <Position X="3" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgQAAAAABAAABAIAAAiAAUAIAAAIAAAIOIBgAAEEgAA=</HashCode>
+      <FileName>gamelib.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::CInteger" Collapsed="true">
+    <Position X="1.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAACAAJBAAAAAAEQAAAABAAAAEABgAACIAAA=</HashCode>
+      <FileName>gamelib.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::CGame" Collapsed="true">
+    <Position X="1.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAACgBACEQAgBAABAwADAABpAgAQAQAIgAAAwAAA=</HashCode>
+      <FileName>gamelib.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::MapManage" Collapsed="true">
+    <Position X="3" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IkAIIAAABAAEAEGAAkEAAAAAAIwBAAgAwgBgDAgEAKE=</HashCode>
+      <FileName>mapmanage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::GameScore" Collapsed="true">
+    <Position X="4.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIEAAIAAAAAgCIAAAAAIAAAAQAQAEQCAAAA=</HashCode>
+      <FileName>mygame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::GameMapEdit" Collapsed="true">
+    <Position X="1.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GAUBAAgQAAIAAgCABgAIAIAAABAABABAAAAAAACEBAg=</HashCode>
+      <FileName>mygame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="game_framework::ToolCDC" Collapsed="true">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAgAACAAAFAIAAAAACIQCAAGAIEKAAAAwAAAAAAA=</HashCode>
+      <FileName>mygame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="GAME_STATES" Collapsed="true">
+    <Position X="3" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAEAAAAAAAAQABAAAAAIA=</HashCode>
+      <FileName>gamelib.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="AUDIO_ID" Collapsed="true">
+    <Position X="1.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAIBAAAAAAAAgAQAAAAAAAQEEAAAACCAAA=</HashCode>
+      <FileName>mygame.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="game_framework::OBJ_ID" Collapsed="true">
+    <Position X="4.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAFAAAAAEAAAAAQAAAAgKSAgAigRACgAAAQAgAEQA=</HashCode>
+      <FileName>mygame.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="微軟正黑體" Size="9" />
+</ClassDiagram>
